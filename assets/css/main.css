@@ -300,7 +300,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #282b2d;
 	}
 
 	blockquote {
@@ -3856,7 +3856,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
+				border-color: #282b2d;
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;

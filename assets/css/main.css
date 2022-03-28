@@ -308,12 +308,12 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(220, 220, 220, 0.25);
+		background: #181a1b;
 		border-color: #eeeeee;
 	}
 
 	hr {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #1e2021;
 	}
 
 /* Row */

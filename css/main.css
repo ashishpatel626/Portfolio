@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #373c3e;
+    background-color: #2b2f31;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -53,6 +53,14 @@ body {
     }
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background-color: #37353E;
+    font-size: 50px;
+}
+
 .Featured-Projects {
     display: flex;
     flex: 1;
@@ -61,20 +69,11 @@ body {
     padding: 10px;
 
     .project-row-title {
-        font-size: 50px;
+        font-size: 40px;
         padding-bottom: 20px;
     }
 
-    .project-row {
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
-        
-        p {
-            font-size: 25px;
-            margin-bottom: 10px;
-        }
-
+    .projects {
         img {
             height: 400px;
             width: 500px;
@@ -83,6 +82,33 @@ body {
 
         img:hover {
             transform: scale(1.1);
+        }
+
+        .project-title {
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+
+        .asteroid-pygame {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+
+        .resiliance{
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            align-items: center;
+        }
+
+        .project-description {
+            max-width: 400px;
+            text-align: left;
+            line-height: 1.5;
+            font-size: 20px;
         }
     }
 }

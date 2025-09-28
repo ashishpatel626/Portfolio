@@ -1,8 +1,85 @@
-.header ul{
-    list-style-type: none;
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
-.projects img {
-    height: 200px;
-    width: 300px;
+body {
+    color: white;
+    background-color: #44444E;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    background-color: #37353E;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 30px;
+
+    .fa-file-pdf {
+        color: #d71011;
+    }
+
+    .fa-envelope {
+        position: relative;
+        background: linear-gradient(45deg, 
+            #EA4335 0%, #EA4335 25%, 
+            #FBBC05 25%, #FBBC05 50%, 
+            #34A853 50%, #34A853 75%,
+            #4285F4 75%, #4285F4 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .fa-linkedin {
+        color:#08529b;
+    }
+
+    .fa-github {
+        color: #62257e;
+    }
+}
+
+.Featured-Projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+
+    .project-row-title {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    .project-row {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        
+        p {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            height: 200px;
+            width: 300px;
+            border-radius: 10px;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }

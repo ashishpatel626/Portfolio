@@ -1,0 +1,8 @@
+.header ul{
+    list-style-type: none;
+}
+
+.projects img {
+    height: 200px;
+    width: 300px;
+}

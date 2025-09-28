@@ -1,18 +1,18 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    color: #e8e6e3;
 }
 
 body {
-    color: white;
-    background-color: #44444E;
+    background-color: #373c3e;
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
 .header {
-    background-color: #37353E;
+    background-color: #2b2f31;
 }
 
 .header ul {
@@ -22,9 +22,14 @@ body {
     gap: 20px;
     padding: 20px;
     font-size: 30px;
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
 
     .fa-file-pdf {
-        color: #d71011;
+        color: #f0393a;
     }
 
     .fa-envelope {
@@ -40,11 +45,11 @@ body {
     }
 
     .fa-linkedin {
-        color:#08529b;
+        color:#72bcf8;
     }
 
     .fa-github {
-        color: #62257e;
+        color: #bd7fda;
     }
 }
 
@@ -82,4 +87,5 @@ footer {
     display: flex;
     justify-content: center;
     padding: 30px;
+    background-color: #181a1b;
 }

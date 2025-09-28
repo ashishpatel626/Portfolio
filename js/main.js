@@ -1,5 +1,5 @@
 const currDate = new Date();
 const currYear = currDate.getFullYear();
 
-document.querySelector('time').textContent = currYear;
-document.querySelector('time').setAttribute('datetime', currYear);
+document.querySelector('.copyright-year').textContent = currYear;
+document.querySelector('.copyright-year').setAttribute('datetime', currYear);

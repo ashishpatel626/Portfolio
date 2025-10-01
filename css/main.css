@@ -19,9 +19,9 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    font-size: 30px;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
     
     a {
         text-decoration: none;
@@ -56,9 +56,9 @@ body {
 .about {
     display: flex;
     justify-content: center;
-    padding: 35px;
+    padding: 2rem;
     background-color: #37353E;
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .Featured-Projects {
@@ -66,18 +66,18 @@ body {
     flex: 1;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
 
-    .project-row-title {
-        font-size: 40px;
-        padding-bottom: 20px;
+    .project-section-title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
     }
 
     .projects {
         img {
-            height: 400px;
-            width: 500px;
-            border-radius: 10px;
+            height: 25rem;
+            width: 31rem;
+            border-radius: 1rem;
         }
 
         img:hover {
@@ -85,30 +85,30 @@ body {
         }
 
         .project-title {
-            margin-bottom: 25px;
-            font-size: 20px;
+            margin-bottom: 2rem;
+            font-size: 2rem;
         }
 
         .asteroid-pygame {
             display: flex;
             justify-content: center;
-            gap: 100px;
+            gap: 6rem;
             align-items: center;
-            padding-bottom: 20px;
+            padding-bottom: 1rem;
         }
 
         .resiliance{
             display: flex;
             justify-content: center;
-            gap: 100px;
+            gap: 6rem;
             align-items: center;
         }
 
         .project-description {
-            max-width: 400px;
+            max-width: 25rem;
             text-align: left;
             line-height: 1.5;
-            font-size: 20px;
+            font-size: 1.3rem;
         }
     }
 }
@@ -116,6 +116,6 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 2rem;
     background-color: #181a1b;
 }

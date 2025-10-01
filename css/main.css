@@ -53,12 +53,13 @@ body {
     }
 }
 
-.about {
+.page-title {
     display: flex;
     justify-content: center;
     padding: 2rem;
     background-color: #37353E;
     font-size: 3rem;
+    text-align: center;
 }
 
 .featured-projects {
@@ -102,6 +103,7 @@ body {
             justify-content: center;
             gap: 6rem;
             align-items: center;
+            margin-bottom: 1rem;
         }
 
         .project-description {
@@ -118,4 +120,34 @@ footer {
     justify-content: center;
     padding: 2rem;
     background-color: #181a1b;
+}
+
+
+
+@media (max-width: 1400px) {
+
+        .header ul {
+            font-size: 1rem;
+        }
+
+        .featured-projects {
+            .projects {
+
+                .asteroid-pygame {
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+
+                .resiliance {
+                    flex-direction: column;
+                    gap: 2rem;
+                }
+
+                img {
+                    height: 15rem;
+                    width: 100%;
+                }
+            }
+        }
+
 }

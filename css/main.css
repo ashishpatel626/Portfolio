@@ -61,12 +61,12 @@ body {
     font-size: 3rem;
 }
 
-.Featured-Projects {
+.featured-projects {
     display: flex;
     flex: 1;
     flex-direction: column;
     text-align: center;
-    padding: 1rem;
+    margin: 1rem;
 
     .project-section-title {
         font-size: 3rem;
@@ -94,7 +94,7 @@ body {
             justify-content: center;
             gap: 6rem;
             align-items: center;
-            padding-bottom: 1rem;
+            margin-bottom: 1rem;
         }
 
         .resiliance{
